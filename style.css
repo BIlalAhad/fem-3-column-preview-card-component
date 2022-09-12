@@ -1,0 +1,79 @@
+img{
+    width: 20%;
+    height: auto;
+    padding: 10px;
+ 
+ }
+ .card{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+ 
+ }
+ .card div {
+     box-sizing: border-box;
+     padding: 5px;
+    
+ }
+ .inner{
+    margin: 25px;
+ }
+ .first{
+     background-color:orange;
+ }
+ .second{
+     background-color:cadetblue;
+ }
+ .third{
+     background-color: darkslategrey;
+ }
+ h2{
+     font-size: 35px;
+     padding-top: 15px;
+ }
+ p{
+     width: 400px;
+    padding-top: 15px;
+    width: 250px;
+ }
+ button{
+     margin-top: 25px;
+     border-radius: 20px;
+     height: 35px;
+ }
+
+
+@media (min-width:360PX){
+    img{
+        width: 20%;
+        height: auto;
+        padding: 10px;
+     
+     }
+     .card{
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+     
+     }
+     .card div {
+         box-sizing: border-box;
+     }
+     .first{
+         background-color:orange;
+     }
+     .second{
+         background-color:cadetblue;
+     }
+     .third{
+         background-color: darkslategrey;
+     }
+     h2{
+         font-size: 35px;
+         padding-top: 15px;
+     }
+    
+     button{
+         margin-top: 25px;
+         border-radius: 20px;
+         height: 35px;
+     }
+}

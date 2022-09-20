@@ -42,7 +42,7 @@ img{
  }
 
 
-@media (min-width:360PX){
+@media (min-width: 360px){
     img{
         width: 20%;
         height: auto;

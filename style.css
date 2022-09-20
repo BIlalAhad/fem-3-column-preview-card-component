@@ -3,12 +3,12 @@ img{
     height: auto;
     padding: 10px;
  
- }
+/*  }
  .card{
      display: grid;
      grid-template-columns: repeat(1,1fr);
  
- }
+ } */
  .card div {
      box-sizing: border-box;
      padding: 5px;

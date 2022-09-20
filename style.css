@@ -2,13 +2,13 @@ img{
     width: 20%;
     height: auto;
     padding: 10px;
- 
-/*  }
+
+}
  .card{
      display: grid;
-     grid-template-columns: repeat(1,1fr);
+     grid-template-columns: 1fr;
  
- } */
+ }
  .card div {
      box-sizing: border-box;
      padding: 5px;
@@ -42,7 +42,7 @@ img{
  }
 
 
-@media (min-width: 360px){
+@media (min-width: 400px){
     img{
         width: 20%;
         height: auto;

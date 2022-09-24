@@ -1,18 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img{
     width: 20%;
     height: auto;
     padding: 10px;
 
 }
- .card{
+ /* .card{
      display: grid;
      grid-template-columns: 1fr;
  
- }
+ } */
  .card div {
-     box-sizing: border-box;
-     padding: 5px;
-    
+     padding: 5px;    
  }
  .inner{
     margin: 25px;
@@ -31,9 +35,9 @@ img{
      padding-top: 15px;
  }
  p{
-     width: 400px;
+    /* width: 400px; */
     padding-top: 15px;
-    width: 250px;
+    /* width: 250px; */
  }
  button{
      margin-top: 25px;
